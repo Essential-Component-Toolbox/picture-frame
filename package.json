@@ -1,0 +1,35 @@
+{
+  "name": "picture-frame",
+  "version": "1.0.0",
+  "description": "An HTML tag component designed to display files, along with displaying a caption next to them.",
+  "main": "picture-frame.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Essential-Component-Toolbox/picture-frame.git"
+  },
+  "keywords": [
+    "Display",
+    "file",
+    "gallery",
+    "caption",
+    "image",
+    "pdf",
+    "video",
+    "youtube",
+    "video",
+    "youtube"
+  ],
+  "author": "ECT",
+  "url": "https://github.com/Essential-Component-Toolbox",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Essential-Component-Toolbox/picture-frame/issues"
+  },
+  "homepage": "https://github.com/Essential-Component-Toolbox/picture-frame#readme",
+  "dependencies": {
+    "lit": "^3.1.3"
+  }
+}
