@@ -40,7 +40,7 @@ export class PictureFrame extends LitElement {
     static get styles() {
         return css`
             :host([border]) .img-container {
-                border-style: var(--ajc-border-default-frame1);
+                border-style: groove;
             }
 
             .picture-frame-container {
@@ -50,8 +50,8 @@ export class PictureFrame extends LitElement {
 
             .img-container {
                 display: flex;
-                padding: var(--ajc-spacing-default-4);
-                margin: var(--ajc-spacing-default-7) var(--ajc-spacing-default-0);
+                padding: 12px;
+                margin: 32px 0px;
                 width: 920px;
             }
 
@@ -79,7 +79,7 @@ export class PictureFrame extends LitElement {
             }
 
             .pdf > iframe {
-                border-style: var(--ajc-border-default-frame2);
+                border-style: ridge;
                 width: 440px;
             }
 
@@ -88,11 +88,11 @@ export class PictureFrame extends LitElement {
             }
 
             a:visited, a {
-                color: var(--ajc-color-default-link);
+                color: #5692c7;
             }
 
             a:hover, a:focus {
-                color: var(--ajc-color-default-visited);
+                color: rgb(202, 57, 212);
                 text-decoration: none;
             }
 
@@ -309,3 +309,4 @@ export class PictureFrame extends LitElement {
 }
 
 globalThis.customElements.define(PictureFrame.tag, PictureFrame);
+export { PictureFrame };
