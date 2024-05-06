@@ -1,5 +1,5 @@
 {
-  "name": "picture-frame",
+  "name": "@est-comp-tbox/picture-frame",
   "version": "1.0.0",
   "description": "An HTML tag component designed to display files, along with displaying a caption next to them.",
   "main": "picture-frame.js",
